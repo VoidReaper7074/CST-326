@@ -14,7 +14,7 @@ public class SoundManger : MonoBehaviour
     public AudioClip shipExplosion;
 
     private AudioSource soundEffectAudio;
-    void Start()
+    void Awake()
     {
         if(Instance == null)
         {
